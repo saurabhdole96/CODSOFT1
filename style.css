@@ -1,0 +1,163 @@
+*{margin: 0;
+    padding: 0px;
+color: white;}
+
+    body{
+        background-image: url(img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 30px;
+        
+    }
+    .upper {
+        display: flex;
+       
+    }
+
+    .upper img{
+        height: 60px;
+        margin-top: 10px;
+    }
+    .upper h1{
+        margin-left: 20px;
+        font-size: 30px;
+        margin-right: 150px;
+        width: 150px;
+        
+    }
+    nav ul{
+        display: flex;
+        margin-inline: 20px;
+    }
+    nav ul li{
+        margin-inline: 30px;
+        margin-top: 25px;
+        left: 100px;
+        text-decoration: none;
+        list-style: none;
+        
+        
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        border: 2px solid rgb(255, 255, 255);
+        padding: 10px 20px ;
+        border-radius: 20px;
+        
+
+    }
+        
+    .logo{
+        margin-top: 15px;
+        
+    }
+
+    .logo h1{
+        font-size: 30px;
+    }
+    
+
+    .logo p{
+        margin-left: 20px;
+    }
+
+    .logo nav{
+        text-decoration: none;
+    }
+
+    .login{
+        margin-top: 20px;
+    }
+
+    .login a {
+        margin-left: 150px;
+        font-size: 23px;
+        text-decoration: none;
+       
+    }
+
+    .login button{
+        padding: 7px 7px;
+        background-color: rgb(3, 3, 3);
+        border-radius: 20px;
+        margin-left: 20px;
+        font-weight: 700;
+        border: 2px ridge white;
+        
+    }
+
+    .middle{
+        margin-left: 100px;
+        margin-top: 150px;
+        padding-bottom: 100px;
+        text-shadow: 3px 3px 4px black;
+       
+    }
+
+    .middle h3{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 10px;
+        font-size: 30px;
+    }
+
+    .middle h2{
+        padding: 20px 0px;
+        font-size: 100px
+    }
+
+    .middle h4{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 21px;
+        color:aqua
+    }
+
+    .middle button{
+        margin-top: 50px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        padding: 10px 10px;
+        font-weight: 500;
+        border-radius: 20px;
+        border: 3px ridge rgb(255, 255, 255);
+        cursor: pointer;
+    }
+
+    .end{
+        background: rgb(138,138,138);
+        background: radial-gradient(circle, rgba(138,138,138,1) 9%, rgba(0,0,0,1) 100%);
+        padding: 80px 0px;
+        color: black;
+        text-align: center;
+         
+        
+    }
+
+    .end input{
+        padding: 7px 7px;
+        margin-left: 50px;
+        width: 150px;
+        color: black;
+        border-radius: 10px;
+    }
+
+    .end select {
+        color: black;
+        padding: 7px 7px;
+        margin-left: 50px;
+        width: 150px;
+        border-radius: 10px;
+
+    }
+
+    .end select option{
+        color: rgb(85, 85, 85);
+    }
+
+    footer{
+        text-align: center;
+        font-size:25px;
+        color: gray;
+        background: rgb(138,138,138);
+    background: radial-gradient(circle, rgba(138,138,138,1) 9%, rgba(38,37,37,1) 100%);
+    }
